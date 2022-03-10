@@ -1,10 +1,9 @@
+from abc import ABC, abstractmethod
 from typing import Callable, Union, List, Dict, Tuple
 
-import pandas as pd
 import numpy as np
-import sklearn
+import pandas as pd
 from sklearn.decomposition import PCA
-from abc import ABC, abstractmethod
 
 
 # ----- Helper functions -----

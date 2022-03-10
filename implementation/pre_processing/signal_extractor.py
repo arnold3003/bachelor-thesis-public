@@ -1,12 +1,9 @@
-import logging
-from dataclasses import dataclass
 from statistics import median
-from typing import NamedTuple, Optional
+from typing import NamedTuple
 from typing import Tuple
 
 import numpy as np
 import pandas as pd
-from scipy import io
 from scipy import signal
 
 

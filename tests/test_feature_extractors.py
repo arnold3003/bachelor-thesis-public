@@ -1,5 +1,6 @@
 import numpy as np
 import pandas as pd
+
 from implementation.feature_engineering.feature_extractors import (
     FeatureExtractor,
     get_percent_margin_point,
